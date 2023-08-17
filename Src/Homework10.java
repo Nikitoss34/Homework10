@@ -17,16 +17,12 @@ public class Homework10 {
             teamB[i] = random.nextInt(AGE_MAX - AGE_MIN) + AGE_MIN;
             sumTeamA += teamA[i];
             sumTeamB += teamB[i];
-            double avgAgeteamA = (double) sumTeamA / teamA.length;
-            double avgAgeteamB = (double) sumTeamB / teamB.length;
-            System.out.println(Arrays.toString(teamA));
-            System.out.println("Average age team A " + avgAgeteamA);
-            System.out.println(Arrays.toString(teamB));
-            System.out.println("Average age team B " + avgAgeteamB);
-
-
-
-
         }
+        double avgAgeteamA = (double) sumTeamA / teamA.length;
+        double avgAgeteamB = (double) sumTeamB / teamB.length;
+        System.out.println(Arrays.toString(teamA));
+        System.out.println("Average age team A " + avgAgeteamA);
+        System.out.println(Arrays.toString(teamB));
+        System.out.println("Average age team B " + avgAgeteamB);
     }
 }
